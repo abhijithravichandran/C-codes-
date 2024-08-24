@@ -4,5 +4,6 @@ int main(){
     printf("The address of i and j is %u and %u\n",&i,&j); //u is format specifer for pointers
 
     printf("The value at the address %u is %u and j is %u",&i,*(&i),*(&j));
-     return 0;
+    printf("\n%d",i);
+    return 0;
 }
